@@ -4,7 +4,7 @@ using Android.OS;
 
 namespace FirebaseXamarinApp
 {
-    [Activity(Label = "FirebaseXamarinApp", MainLauncher = true)]
+    [Activity(Label = "FirebaseXamarinApp", MainLauncher = false)]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

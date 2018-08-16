@@ -1,4 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">FirebaseXamarinApp</string>
+  <string name="app_name">LabourScale</string>
+  
+  <!-- activities -->
+  <string name="login_activity">Login</string>
+
+  <string name="hint_employee">Employee</string>
+  <string name="hint_table">Table</string>
+  <string name="hint_email">Username</string>
+  <string name="hint_password">Password</string>
+  <string name="btn_login">LOGIN</string>
+  <string name="btn_forgot_password">Forgot your password?</string>
+  <string name="btn_contact_info">Click Here</string>
+
+  <string name="action_assistance">Need further assistance?</string>
+  
+  <!-- url -->
+  <string name="hint_url">URL</string>
+  <string name="btn_add_url">Add Api URL</string>
+  <string name="btn_forgot_password">Forgot your password?</string>
+  <string name="btn_contact_info">Click Here</string>
+
+  <!-- Navigation Drawer menu labels -->
+  <string name="nav_home">Home</string>
+  <string name="nav_notifications">Notifications</string>
+  <string name="nav_settings">Settings</string>
+  <string name="nav_about_us">About</string>
+  <string name="nav_sync">Sync</string>
+  <string name="nav_help">Help</string>
+  <string name="nav_send_feedback">Send Feedback</string>
+
+
+  <!-- action labels-->
+  <string name="action_settings">Settings</string>
+  <string name="action_search">Search</string>
+  <string name="action_save">Save</string>
+  <string name="drawer_open">Open</string>
+  <string name="drawer_close">Close</string>
+  <string name="action_clear_all">Clear All</string>
+  <string name="action_mark_all_read">Mark All as Read</string>
+  <string name="action_logout">Logout</string>
+  <string name="privacy_policy">Privacy Policy</string>
+  <string name="action_emp_refresh">Refresh</string>
+
+  <string name="feedbacktype1">Praise</string>
+  <string name="feedbacktype2">Gripe</string>
+  <string name="feedbacktype3">Suggestion</string>
+  <string name="feedbacktype4">Bug</string>
+  
+  <!-- NFC Write To Tag -->
+  <string name="button_write_new_tag">Write new tag</string>
+  <string name="button_back_to_main_activity">Back to Main Activity</string>
+
+  <!-- Navigation Header -->
+  <string name="inspections">Inspections</string>
+  <string name="capture_a_new_inspection">Capture A New Inspection</string>
+  <string name="title_activity_navigation">NavigationActivity</string>
+  <string name="navigation_drawer_open">Open navigation drawer</string>
+  <string name="navigation_drawer_close">Close navigation drawer</string>
+  <string name="nav_header_title">Labour Scale</string>
+  <string name="nav_header_subtitle">DiPAR Systems</string>
+  <string name="nav_header_desc">Navigation header</string>
+  <string name="action_settings">Settings</string>
+  
 </resources>
