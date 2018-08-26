@@ -19,11 +19,12 @@ using FirebaseXamarinApp.Services;
 namespace FirebaseXamarinApp.Activities
 {
     [Activity(Label = "EmployeesActivity", MainLauncher = true)]
-    public class EmployeesActivity : Activity
+    public class EmployeesActivity : BaseActivity
     {
         EmployeesRecyclerAdapter employeesRecyclerAdapter;
         EmployeeService _employeeService;
 
+        private EditText _empcode;
         private EditText _name;
         private EditText _surname;
         private Button _addButton;
@@ -38,12 +39,17 @@ namespace FirebaseXamarinApp.Activities
 
             _layout = FindViewById<CoordinatorLayout>(Resource.Id.layout_employees);
 
+            //Register Service Classes
+            _employeeService = new EmployeeService();
+
+            _empcode = FindViewById<EditText>(Resource.Id.empcode);
             _name = FindViewById<EditText>(Resource.Id.name);
             _surname = FindViewById<EditText>(Resource.Id.surname);
 
             _addButton = FindViewById<Button>(Resource.Id.btn_add_employee);
             _addButton.Click += AddEmpClicked;
 
+            InitializeDisplayContentAsync();
         }
 
         public override bool OnCreateOptionsMenu(IMenu menu)
@@ -57,7 +63,7 @@ namespace FirebaseXamarinApp.Activities
             switch (item.ItemId)
             {
                 case Resource.Id.emp_add:
-                    AddEmployee();
+                    AddEmployeeAsync();
                     return true;
                 case Resource.Id.emp_edit:
                     EditEmployee();
@@ -70,13 +76,22 @@ namespace FirebaseXamarinApp.Activities
             }
         }
 
-        public void AddEmployee()
+        public async void AddEmployeeAsync()
         {
             try
             {
-                
+                Employee e = new Employee()
+                {
+                    empcode = _empcode.Text,
+                    name = _name.Text,
+                    surname = _surname.Text
+                };
+
+                var result = await _employeeService.Add(e);
+
+                Toast.MakeText(this, "Employee Successfully Added", ToastLength.Long).Show();
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 Toast.MakeText(this, "Error", ToastLength.Long).Show();
             }
@@ -88,7 +103,7 @@ namespace FirebaseXamarinApp.Activities
             {
 
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 Toast.MakeText(this, "Error", ToastLength.Long).Show();
             }
@@ -100,7 +115,7 @@ namespace FirebaseXamarinApp.Activities
             {
 
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 Toast.MakeText(this, "Error", ToastLength.Long).Show();
             }
@@ -108,12 +123,14 @@ namespace FirebaseXamarinApp.Activities
 
         private void AddEmpClicked(object sender, EventArgs args)
         {
+            AddEmployeeAsync();
+
             Snackbar.Make(_layout, "Employee Successfully Added.", Snackbar.LengthLong)
                 .SetAction("OK", (v) => { })
                 .Show();
         }
 
-        private async Task InitializeDisplayContentAsync()
+        private async void InitializeDisplayContentAsync()
         {
             RecyclerView recyclerNotes = FindViewById<RecyclerView>(Resource.Id.list_employees);
             LinearLayoutManager notesLayoutManager = new LinearLayoutManager(this);

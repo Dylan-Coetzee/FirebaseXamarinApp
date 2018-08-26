@@ -2673,8 +2673,8 @@ namespace FirebaseXamarinApp
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0800a2
-			public const int action0 = 2131230882;
+			// aapt resource value: 0x7f0800a3
+			public const int action0 = 2131230883;
 			
 			// aapt resource value: 0x7f080071
 			public const int action_bar = 2131230833;
@@ -2697,17 +2697,17 @@ namespace FirebaseXamarinApp
 			// aapt resource value: 0x7f08004e
 			public const int action_bar_title = 2131230798;
 			
-			// aapt resource value: 0x7f08009f
-			public const int action_container = 2131230879;
+			// aapt resource value: 0x7f0800a0
+			public const int action_container = 2131230880;
 			
 			// aapt resource value: 0x7f080072
 			public const int action_context_bar = 2131230834;
 			
-			// aapt resource value: 0x7f0800a6
-			public const int action_divider = 2131230886;
+			// aapt resource value: 0x7f0800a7
+			public const int action_divider = 2131230887;
 			
-			// aapt resource value: 0x7f0800a0
-			public const int action_image = 2131230880;
+			// aapt resource value: 0x7f0800a1
+			public const int action_image = 2131230881;
 			
 			// aapt resource value: 0x7f080003
 			public const int action_menu_divider = 2131230723;
@@ -2724,11 +2724,11 @@ namespace FirebaseXamarinApp
 			// aapt resource value: 0x7f080050
 			public const int action_mode_close_button = 2131230800;
 			
-			// aapt resource value: 0x7f0800a1
-			public const int action_text = 2131230881;
+			// aapt resource value: 0x7f0800a2
+			public const int action_text = 2131230882;
 			
-			// aapt resource value: 0x7f0800af
-			public const int actions = 2131230895;
+			// aapt resource value: 0x7f0800b0
+			public const int actions = 2131230896;
 			
 			// aapt resource value: 0x7f080051
 			public const int activity_chooser_view_content = 2131230801;
@@ -2757,17 +2757,17 @@ namespace FirebaseXamarinApp
 			// aapt resource value: 0x7f080028
 			public const int bottom = 2131230760;
 			
-			// aapt resource value: 0x7f080094
-			public const int btn_add_employee = 2131230868;
+			// aapt resource value: 0x7f080095
+			public const int btn_add_employee = 2131230869;
 			
 			// aapt resource value: 0x7f080058
 			public const int buttonPanel = 2131230808;
 			
-			// aapt resource value: 0x7f0800a3
-			public const int cancel_action = 2131230883;
+			// aapt resource value: 0x7f0800a4
+			public const int cancel_action = 2131230884;
 			
-			// aapt resource value: 0x7f080096
-			public const int card_view = 2131230870;
+			// aapt resource value: 0x7f080097
+			public const int card_view = 2131230871;
 			
 			// aapt resource value: 0x7f080030
 			public const int center = 2131230768;
@@ -2784,8 +2784,8 @@ namespace FirebaseXamarinApp
 			// aapt resource value: 0x7f080068
 			public const int checkbox = 2131230824;
 			
-			// aapt resource value: 0x7f0800ab
-			public const int chronometer = 2131230891;
+			// aapt resource value: 0x7f0800ac
+			public const int chronometer = 2131230892;
 			
 			// aapt resource value: 0x7f080039
 			public const int clip_horizontal = 2131230777;
@@ -2844,23 +2844,26 @@ namespace FirebaseXamarinApp
 			// aapt resource value: 0x7f080073
 			public const int edit_query = 2131230835;
 			
-			// aapt resource value: 0x7f0800b8
-			public const int emp_add = 2131230904;
+			// aapt resource value: 0x7f0800b9
+			public const int emp_add = 2131230905;
+			
+			// aapt resource value: 0x7f0800bb
+			public const int emp_delete = 2131230907;
 			
 			// aapt resource value: 0x7f0800ba
-			public const int emp_delete = 2131230906;
+			public const int emp_edit = 2131230906;
 			
-			// aapt resource value: 0x7f0800b9
-			public const int emp_edit = 2131230905;
+			// aapt resource value: 0x7f080090
+			public const int empcode = 2131230864;
 			
 			// aapt resource value: 0x7f08008f
-			public const int employee_picture = 2131230863;
+			public const int empcode_layout = 2131230863;
 			
 			// aapt resource value: 0x7f080021
 			public const int end = 2131230753;
 			
-			// aapt resource value: 0x7f0800b5
-			public const int end_padder = 2131230901;
+			// aapt resource value: 0x7f0800b6
+			public const int end_padder = 2131230902;
 			
 			// aapt resource value: 0x7f08002a
 			public const int enterAlways = 2131230762;
@@ -2901,8 +2904,8 @@ namespace FirebaseXamarinApp
 			// aapt resource value: 0x7f080056
 			public const int icon = 2131230806;
 			
-			// aapt resource value: 0x7f0800b0
-			public const int icon_group = 2131230896;
+			// aapt resource value: 0x7f0800b1
+			public const int icon_group = 2131230897;
 			
 			// aapt resource value: 0x7f080025
 			public const int ifRoom = 2131230757;
@@ -2910,11 +2913,11 @@ namespace FirebaseXamarinApp
 			// aapt resource value: 0x7f080053
 			public const int image = 2131230803;
 			
-			// aapt resource value: 0x7f08009d
-			public const int imageColor = 2131230877;
+			// aapt resource value: 0x7f08009e
+			public const int imageColor = 2131230878;
 			
-			// aapt resource value: 0x7f0800ac
-			public const int info = 2131230892;
+			// aapt resource value: 0x7f0800ad
+			public const int info = 2131230893;
 			
 			// aapt resource value: 0x7f080042
 			public const int invisible = 2131230786;
@@ -2931,26 +2934,26 @@ namespace FirebaseXamarinApp
 			// aapt resource value: 0x7f080034
 			public const int left = 2131230772;
 			
-			// aapt resource value: 0x7f0800b1
-			public const int line1 = 2131230897;
+			// aapt resource value: 0x7f0800b2
+			public const int line1 = 2131230898;
 			
-			// aapt resource value: 0x7f0800b3
-			public const int line3 = 2131230899;
+			// aapt resource value: 0x7f0800b4
+			public const int line3 = 2131230900;
 			
 			// aapt resource value: 0x7f08000f
 			public const int listMode = 2131230735;
 			
-			// aapt resource value: 0x7f080095
-			public const int list_employees = 2131230869;
+			// aapt resource value: 0x7f080096
+			public const int list_employees = 2131230870;
 			
 			// aapt resource value: 0x7f080055
 			public const int list_item = 2131230805;
 			
-			// aapt resource value: 0x7f0800b7
-			public const int masked = 2131230903;
+			// aapt resource value: 0x7f0800b8
+			public const int masked = 2131230904;
 			
-			// aapt resource value: 0x7f0800a5
-			public const int media_actions = 2131230885;
+			// aapt resource value: 0x7f0800a6
+			public const int media_actions = 2131230886;
 			
 			// aapt resource value: 0x7f080022
 			public const int middle = 2131230754;
@@ -2961,11 +2964,11 @@ namespace FirebaseXamarinApp
 			// aapt resource value: 0x7f080019
 			public const int multiply = 2131230745;
 			
-			// aapt resource value: 0x7f080091
-			public const int name = 2131230865;
+			// aapt resource value: 0x7f080092
+			public const int name = 2131230866;
 			
-			// aapt resource value: 0x7f080090
-			public const int name_layout = 2131230864;
+			// aapt resource value: 0x7f080091
+			public const int name_layout = 2131230865;
 			
 			// aapt resource value: 0x7f080088
 			public const int navigation_header_container = 2131230856;
@@ -2979,14 +2982,14 @@ namespace FirebaseXamarinApp
 			// aapt resource value: 0x7f080010
 			public const int normal = 2131230736;
 			
-			// aapt resource value: 0x7f0800ae
-			public const int notification_background = 2131230894;
+			// aapt resource value: 0x7f0800af
+			public const int notification_background = 2131230895;
+			
+			// aapt resource value: 0x7f0800a9
+			public const int notification_main_column = 2131230889;
 			
 			// aapt resource value: 0x7f0800a8
-			public const int notification_main_column = 2131230888;
-			
-			// aapt resource value: 0x7f0800a7
-			public const int notification_main_column_container = 2131230887;
+			public const int notification_main_column_container = 2131230888;
 			
 			// aapt resource value: 0x7f080047
 			public const int packed = 2131230791;
@@ -3015,17 +3018,17 @@ namespace FirebaseXamarinApp
 			// aapt resource value: 0x7f08006a
 			public const int radio = 2131230826;
 			
-			// aapt resource value: 0x7f080099
-			public const int relativeLayout2 = 2131230873;
+			// aapt resource value: 0x7f08009a
+			public const int relativeLayout2 = 2131230874;
 			
 			// aapt resource value: 0x7f080035
 			public const int right = 2131230773;
 			
-			// aapt resource value: 0x7f0800ad
-			public const int right_icon = 2131230893;
+			// aapt resource value: 0x7f0800ae
+			public const int right_icon = 2131230894;
 			
-			// aapt resource value: 0x7f0800a9
-			public const int right_side = 2131230889;
+			// aapt resource value: 0x7f0800aa
+			public const int right_side = 2131230890;
 			
 			// aapt resource value: 0x7f08001a
 			public const int screen = 2131230746;
@@ -3129,8 +3132,8 @@ namespace FirebaseXamarinApp
 			// aapt resource value: 0x7f080036
 			public const int start = 2131230774;
 			
-			// aapt resource value: 0x7f0800a4
-			public const int status_bar_latest_event_content = 2131230884;
+			// aapt resource value: 0x7f0800a5
+			public const int status_bar_latest_event_content = 2131230885;
 			
 			// aapt resource value: 0x7f08006b
 			public const int submenuarrow = 2131230827;
@@ -3138,32 +3141,32 @@ namespace FirebaseXamarinApp
 			// aapt resource value: 0x7f08007c
 			public const int submit_area = 2131230844;
 			
-			// aapt resource value: 0x7f080093
-			public const int surname = 2131230867;
+			// aapt resource value: 0x7f080094
+			public const int surname = 2131230868;
 			
-			// aapt resource value: 0x7f080092
-			public const int surname_layout = 2131230866;
+			// aapt resource value: 0x7f080093
+			public const int surname_layout = 2131230867;
 			
 			// aapt resource value: 0x7f080011
 			public const int tabMode = 2131230737;
 			
-			// aapt resource value: 0x7f0800b4
-			public const int text = 2131230900;
+			// aapt resource value: 0x7f0800b5
+			public const int text = 2131230901;
 			
-			// aapt resource value: 0x7f0800b2
-			public const int text2 = 2131230898;
+			// aapt resource value: 0x7f0800b3
+			public const int text2 = 2131230899;
 			
-			// aapt resource value: 0x7f08009a
-			public const int textEmpCode = 2131230874;
+			// aapt resource value: 0x7f08009b
+			public const int textEmpCode = 2131230875;
 			
-			// aapt resource value: 0x7f080097
-			public const int textEmpName = 2131230871;
+			// aapt resource value: 0x7f080098
+			public const int textEmpName = 2131230872;
 			
-			// aapt resource value: 0x7f08009c
-			public const int textEmpPosition = 2131230876;
+			// aapt resource value: 0x7f08009d
+			public const int textEmpPosition = 2131230877;
 			
-			// aapt resource value: 0x7f08009e
-			public const int textLetter = 2131230878;
+			// aapt resource value: 0x7f08009f
+			public const int textLetter = 2131230879;
 			
 			// aapt resource value: 0x7f08005f
 			public const int textSpacerNoButtons = 2131230815;
@@ -3171,14 +3174,14 @@ namespace FirebaseXamarinApp
 			// aapt resource value: 0x7f08005e
 			public const int textSpacerNoTitle = 2131230814;
 			
-			// aapt resource value: 0x7f080098
-			public const int text_course = 2131230872;
+			// aapt resource value: 0x7f080099
+			public const int text_course = 2131230873;
 			
 			// aapt resource value: 0x7f08008d
 			public const int text_input_password_toggle = 2131230861;
 			
-			// aapt resource value: 0x7f08009b
-			public const int text_title = 2131230875;
+			// aapt resource value: 0x7f08009c
+			public const int text_title = 2131230876;
 			
 			// aapt resource value: 0x7f08000c
 			public const int textinput_counter = 2131230732;
@@ -3186,8 +3189,8 @@ namespace FirebaseXamarinApp
 			// aapt resource value: 0x7f08000d
 			public const int textinput_error = 2131230733;
 			
-			// aapt resource value: 0x7f0800aa
-			public const int time = 2131230890;
+			// aapt resource value: 0x7f0800ab
+			public const int time = 2131230891;
 			
 			// aapt resource value: 0x7f080057
 			public const int title = 2131230807;
@@ -3222,8 +3225,8 @@ namespace FirebaseXamarinApp
 			// aapt resource value: 0x7f08000e
 			public const int view_offset_helper = 2131230734;
 			
-			// aapt resource value: 0x7f0800b6
-			public const int visible = 2131230902;
+			// aapt resource value: 0x7f0800b7
+			public const int visible = 2131230903;
 			
 			// aapt resource value: 0x7f080027
 			public const int withText = 2131230759;
